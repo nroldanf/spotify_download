@@ -8,5 +8,5 @@ docker run --rm -v $(pwd):/songs \
 -e SPOTIFY_PLAYLIST="https://open.spotify.com/playlist/3Ansznz8joIopkoagNoYx6?si=vJOw28aVQ5yMLgeM682_2Q" \
 -e SPOTIPY_CLIENT_ID="YOUR_CLIENT_ID" \
 -e SPOTIPY_CLIENT_SECRET="YOUR_CLIENT_SECRET" \
-spotify_download
+nroldanf/spotify_download
 ```
